@@ -1,4 +1,4 @@
-# Garbled Circuits
+# Garbled Circuits: Finding commong elements between two sets of 8 bit integers with cryptography
 
 This work implements garbled circuits to solve the following problem: Given two parties, A and B, let A have a set of 8 bit integers $a_1, \dots, a_n$, and B have a set of 8 bit integers $b_1, \dots, b_n$, then the objective is to find the set of common elements shared betweem A and B, without neither A nor B knowing the set of items belonging to the other user, nor making use of any central authority.
 
