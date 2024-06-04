@@ -4,6 +4,9 @@ This work implements garbled circuits to solve the following problem: Given two 
 
 This project makes use of cryptographic tools known as "Garbled Circuit", and it is based on the repository "https://github.com/ojroques/garbled-circuit/tree/master", which I adapt to my specific task.
 
+![alt text](https://github.com/RepresentativeOnMission/Garbled-Circuits-Implementation-Find-common-elements-in-two-set-of-integers/blob/main/Paper/images8bit_circuit.PNG/?raw=true)
+
+
 ## How to use?
 * check that you have the required libraries to run the code, you will find the libraries in "./Paper/How to use.pdf"
 * go to "./garbled_circuit_master/src/"
