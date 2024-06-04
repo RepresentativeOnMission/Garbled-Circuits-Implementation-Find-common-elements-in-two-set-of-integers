@@ -1,0 +1,94 @@
+{
+  "name": "cmp",
+  "circuits": [
+    {
+      "id": "1-bit CMP",
+      "alice": [1],
+      "bob": [2],
+      "out": [4],
+      "gates": [
+        {"id": 3, "type": "XOR", "in": [1,2]},
+        {"id": 4, "type": "NOT", "in": [3]}
+      ]
+    },
+	{
+      "id": "2-bit CMP",
+      "alice": [1,2],
+      "bob": [3,4],
+      "out": [9],
+      "gates": [
+        {"id": 5, "type": "XOR", "in": [1,3]},
+        {"id": 6, "type": "XOR", "in": [2,4]},
+		{"id": 7, "type": "NOT", "in": [5]},
+		{"id": 8, "type": "NOT", "in": [6]},
+		{"id": 9, "type": "AND", "in": [7,8]}
+      ]
+    },
+	{
+      "id": "3-bit CMP",
+      "alice": [1,2,3],
+      "bob": [4,5,6],
+      "out": [14],
+      "gates": [
+        {"id": 7, "type": "XOR", "in": [1,4]},
+        {"id": 8, "type": "XOR", "in": [2,5]},
+		{"id": 9, "type": "XOR", "in": [3,6]},
+		{"id": 10, "type": "NOT", "in": [7]},
+		{"id": 11, "type": "NOT", "in": [8]},
+		{"id": 12, "type": "NOT", "in": [9]},
+		{"id": 13, "type": "AND", "in": [10,11]},
+		{"id": 14, "type": "AND", "in": [12,13]}
+      ]
+    },
+	{
+      "id": "4-bit CMP",
+      "alice": [1,2,3,4],
+      "bob": [5,6,7,8],
+      "out": [19],
+      "gates": [
+        {"id": 9, "type": "XOR", "in": [1,5]},
+        {"id": 10, "type": "XOR", "in": [2,6]},
+		{"id": 11, "type": "XOR", "in": [3,7]},
+		{"id": 12, "type": "XOR", "in": [4,8]},
+		{"id": 13, "type": "NOT", "in": [9]},
+		{"id": 14, "type": "NOT", "in": [10]},
+		{"id": 15, "type": "NOT", "in": [11]},
+		{"id": 16, "type": "NOT", "in": [12]},
+		{"id": 17, "type": "AND", "in": [13,14]},
+		{"id": 18, "type": "AND", "in": [15,16]},
+		{"id": 19, "type": "AND", "in": [17,18]}
+      ]
+    },
+	{
+      "id": "8-bit CMP",
+      "alice": [1,2,3,4,5,6,7,8],
+      "bob": [9,10,11,12,13,14,15,16],
+      "out": [39],
+      "gates": [
+        {"id": 17, "type": "XOR", "in": [1,9]},
+        {"id": 18, "type": "XOR", "in": [2,10]},
+		{"id": 19, "type": "XOR", "in": [3,11]},
+		{"id": 20, "type": "XOR", "in": [4,12]},
+		{"id": 21, "type": "XOR", "in": [5,13]},
+        {"id": 22, "type": "XOR", "in": [6,14]},
+		{"id": 23, "type": "XOR", "in": [7,15]},
+		{"id": 24, "type": "XOR", "in": [8,16]},
+		{"id": 25, "type": "NOT", "in": [17]},
+		{"id": 26, "type": "NOT", "in": [18]},
+		{"id": 27, "type": "NOT", "in": [19]},
+		{"id": 28, "type": "NOT", "in": [20]},
+		{"id": 29, "type": "NOT", "in": [21]},
+		{"id": 30, "type": "NOT", "in": [22]},
+		{"id": 31, "type": "NOT", "in": [23]},
+		{"id": 32, "type": "NOT", "in": [24]},
+		{"id": 33, "type": "AND", "in": [25,26]},
+		{"id": 34, "type": "AND", "in": [27,28]},
+		{"id": 35, "type": "AND", "in": [29,30]},
+		{"id": 36, "type": "AND", "in": [31,32]},
+		{"id": 37, "type": "AND", "in": [33,34]},
+		{"id": 38, "type": "AND", "in": [35,36]},
+		{"id": 39, "type": "AND", "in": [37,38]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{5-1}{section.1}%
+\contentsline {section}{\numberline {2}Danish Sugar Beet Auction}{5-2}{section.2}%
+\contentsline {section}{\numberline {3}DNA and Genetic Testing}{5-3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}DNA: privacy concerns}{5-3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Extract information from DNA: Genetic Testing}{5-3}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Privacy and Social aspects}{5-3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Legal aspects}{5-3}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Genetic Testing and Multi Party Computation}{5-4}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusions}{5-5}{section.4}%
